@@ -11,6 +11,8 @@ Training vs Validation:
 ![Alt Text](https://github.com/sai-srinivas91/Potato-Disease-Classification/blob/99ca4fe7ff23d402f9288a6efeb5dbf0315526b8/Training%20vs%20Validation.png)
 
 
+
+
 Predicted the outputs with respect to confidence scores.
 Predictions:
 ![Alt Text](predictions.png)

@@ -15,8 +15,12 @@ After preparing the dataset, I trained a CNN model on the augmented and normaliz
 
 During the training process, the CNN model achieved an impressive accuracy of 99% on the validation set, indicating that it learned to classify the images with great precision.
 
+To evaluate the training progress and performance of the model, I plotted the Training vs. Validation accuracy and loss curves. These curves provide insights into how well the model is learning and if it is overfitting or underfitting the data.
+
 Training vs Validation:
 ![Alt Text](https://github.com/sai-srinivas91/Potato-Disease-Classification/blob/99ca4fe7ff23d402f9288a6efeb5dbf0315526b8/Training%20vs%20Validation.png)
+
+I ran predictions on a sample image using the trained CNN model.
 
 
 

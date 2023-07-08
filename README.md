@@ -18,13 +18,28 @@ During the training process, the CNN model achieved an impressive accuracy of 99
 To evaluate the training progress and performance of the model, I plotted the Training vs. Validation accuracy and loss curves. These curves provide insights into how well the model is learning and if it is overfitting or underfitting the data.
 
 Training vs Validation:
+
 ![Alt Text](https://github.com/sai-srinivas91/Potato-Disease-Classification/blob/99ca4fe7ff23d402f9288a6efeb5dbf0315526b8/Training%20vs%20Validation.png)
 
 I ran predictions on a sample image using the trained CNN model.
 
 
 
+Sample Prediction:
+
+![Alt Text](sample_prediction.png)
+
+The CNN model is performing accurately, with the predicted labels matching the actual labels for the sample images.
+
+Later, wrote a function that takes an image as input and returns the actual label, predicted label, and confidence score of the prediction.
+
 
 Predicted the outputs with respect to confidence scores.
+
 Predictions:
+
 ![Alt Text](predictions.png)
+
+Indeed, the ability to accurately predict and detect diseases in potato crops at an early stage can be immensely beneficial for potato farmers.Using Potato Disease Classification, Potato farmers can input images of their potato plants into the system and obtain the actual label (indicating the presence or absence of disease), the predicted label (disease classification), and the confidence score of the prediction.
+
+With this information, farmers can take proactive measures to address potential diseases and apply appropriate precautions on their farms. Early disease detection allows farmers to intervene promptly, potentially preventing the spread of diseases and minimizing crop damage. This can lead to increased crop yields, improved farm productivity, and reduced economic losses.
